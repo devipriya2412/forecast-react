@@ -38,6 +38,9 @@ class WeatherList extends Component{
         }
 
         return(
+            
+            <div>
+            
             <table className="table table-hover">
                 <thead>
                     <tr>
@@ -52,6 +55,16 @@ class WeatherList extends Component{
                     {this.props.weather.map(this.renderWeather)}
                 </tbody>
             </table>
+
+            <div className="row">
+                <div className="col-xs-12 div-footer">
+                    Made with <i className="fa fa-heart fa-fw"></i> by Felipe Mesquita
+                </div>
+            </div>
+
+
+            </div>
+            
         );
     }
 }

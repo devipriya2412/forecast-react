@@ -59,3 +59,9 @@ td:first-of-type, td:first-of-type > div{
 .margin-bottom-0{
     margin-bottom: 0;
 }
+
+.div-footer{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
