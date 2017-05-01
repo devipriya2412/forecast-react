@@ -5,7 +5,7 @@ html, body{
 }
 
 .main-div{
-    background-image: url(http://mesquitafelipe.com/forecast/public/images/bg.jpg);
+    background-image: url(../public/images/bg.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
