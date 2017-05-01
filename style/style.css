@@ -1,0 +1,61 @@
+
+html, body{
+    height: 100%;
+    background-color: #9bc5dd;
+}
+
+.main-div{
+    background-image: url(http://mesquitafelipe.com/forecast/public/images/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    padding-top: 100px;
+}
+
+table{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
+}
+
+td, th{
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.input-group{
+    margin: 0 0 20px 0px;
+}
+
+svg{
+    height: 150px;
+}
+
+td:first-of-type, td:first-of-type > div{
+    height: 200px;
+    width: 250px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.header-logo h4{
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.9);
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0;
+}
